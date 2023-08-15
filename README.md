@@ -1,10 +1,15 @@
-# WorganicTabV1
+# WorganicTabV1 / v7 : Service.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+
+## Development server json
+
+Run `json-server --watch db.json` for a dev server. Navigate to `http://localhost:3000/`.
 
 ## Code scaffolding
 
@@ -14,14 +19,46 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Get clone 
+> https://github.com/worganic/TutoTab-St7-create.git
+> npm install
+> cd .\worganic-tab-v1\
+> ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project :
+v7 : Mise en place du service.
 
-## Running end-to-end tests
+    - Création de l'interface users :
+        \src\app\shared\interface\users.ts
+    - Création du service
+        ~ ng g s services/users
+    - Récupération du service dans la page users
+    - Création du components user :
+        ~ ng g c component/users --skip-import
+    - On modifi le component au format standalone.
+        \src\app\component\users\users.component.ts
+    - Ajout au routing :
+        \src\main.ts
+    - Ajout dans le menu :
+        \src\app\app.component.html
+    - Récvupération du service dans le component users.component.ts
+       \src\app\component\users\users.component.ts
+    - Affichage des données sur la page html avec un ngFor
+        \src\app\component\users\users.component.html
+    
+## Infos plus :
+   
+## Update
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Historique :
+Avant -> v6 - Création d'un jsonServer pour les datas test :
+Après -> v8 : Mise en place du cache.
 
-## Further help
+## Ressource :
+    - Services :
+    https://angular.io/tutorial/tour-of-heroes/toh-pt4
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Abouts
+created by Johann Loreau
+create at 2023/07/29
+Le project évolura suivant les remarques et conseils des visiteurs.

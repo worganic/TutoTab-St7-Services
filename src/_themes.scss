@@ -1,0 +1,27 @@
+[data-theme="light"] {
+    /* Tab : fond */
+    --header-background-color: #f55d5d;
+    --header-border-color: #e5e8ea;
+    --text-color: #231f20;
+    --header-menu-item-color: #231f20;
+    --header-theme-switch-background-color: #cccccc;
+    --header-theme-switch-before-background-color: #ffffff;
+    --header-theme-switch-checked-background-color: #2196f3;
+    /* fond : */
+    --main-content-background-color: #ffffff;
+    --main-content-text-color: #231f20;
+  }
+  
+  [data-theme="dark"] {
+    /* Tab : fond */
+    --header-background-color: #2c3c93;
+    --header-border-color: #e5e8ea;
+    --text-color: #e5e8ea;
+    --header-menu-item-color: #ffffff;
+    --header-theme-switch-background-color: #cccccc;
+    --header-theme-switch-before-background-color: #ffffff;
+    --header-theme-switch-checked-background-color: #2196f3;
+    /* fond : */
+    --main-content-background-color: #000;
+    --main-content-text-color: #ffffff;
+  }
